@@ -55,6 +55,7 @@ formEle.addEventListener("submit", (event) => {
 
     event.preventDefault();
     posterEle.classList.add = "d-none"
+    main.textContent=""
     console.log("submited")
     const searchValue = searchEle.value;
     if (searchValue) {
